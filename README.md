@@ -27,3 +27,7 @@ A simple **Shopping Cart project in Python** made for beginners.
 
 ```bash
 python shopping_cart.py
+
+## Author
+
+**Riddhi Deshmukh**
