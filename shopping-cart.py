@@ -9,13 +9,41 @@ while True:
 
     if choice == "1":
         item = input("Enter item: ")
-        cart.append(item)
-        print(item, "added to cart!")
+        quantity = int(input("Enter number of items: "))
+        price = float(input("Enter price of one item: "))
+
+        cart.append({
+            "name": item,
+            "quantity": quantity,
+            "price": price
+        })
+
+        print(quantity, item, "added to cart!")
 
     elif choice == "2":
         print("\nYour Cart:")
-        for item in cart:
-            print("-", item)
+
+        if len(cart) == 0:
+            print("Cart is empty!")
+
+        else:
+            total_bill = 0
+
+            for item in cart:
+                item_total = item["quantity"] * item["price"]
+                total_bill += item_total
+
+                print(
+                    "-",
+                    item["name"],
+                    "x",
+                    item["quantity"],
+                    "= ₹",
+                    item_total
+                )
+
+            print("----------------------")
+            print("Total Bill: ₹", total_bill)
 
     elif choice == "3":
         print("Thank you for shopping!")
