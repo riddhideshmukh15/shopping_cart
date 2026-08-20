@@ -16,15 +16,15 @@ A simple and beginner-friendly **Shopping Cart project built with Python**. It a
 - Python 3
 - Lists
 - Dictionaries
-- `while` loop
-- `for` loop
+- 'while' loop
+- 'for' loop
 - Conditional statements
 
 ## ▶️ How to Run
 
 '''bash
 python shopping_cart.py
-````markdown
+'''markdown
 # 🛒 Shopping Cart
 
 A simple and beginner-friendly **Shopping Cart project built with Python**. It allows users to add items with quantity and price, view the cart, and calculate the total bill.
@@ -43,19 +43,19 @@ A simple and beginner-friendly **Shopping Cart project built with Python**. It a
 - Python 3
 - Lists
 - Dictionaries
-- `while` loop
-- `for` loop
+- 'while' loop
+- 'for' loop
 - Conditional statements
 
 ## ▶️ How to Run
 
-```bash
+'''bash
 python shopping_cart.py
-````
+''''
 
 ## 📌 Example
 
-```text
+'''text
 1. Add item
 2. View cart
 3. Exit
@@ -72,7 +72,7 @@ Your Cart:
 - Soap x 2 = ₹ 60.0
 ----------------------
 Total Bill: ₹ 60.0
-```
+
 
 ## 👩‍💻 Author
 
