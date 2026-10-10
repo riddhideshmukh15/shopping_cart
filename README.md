@@ -1,56 +1,55 @@
-# 🛒 Shopping Cart
+# 🛒 Shopping Cart System
 
-A simple and beginner-friendly **Shopping Cart project built with Python**. It allows users to add items with quantity and price, view the cart, and calculate the total bill.
+## 📌 About the Project
+
+The Shopping Cart System is a simple Python beginner project that allows users to add items to a cart, view cart details, remove items, and generate a final bill.
 
 ## ✨ Features
 
-- Add items to the cart
-- Enter quantity and price
+- Add items to the shopping cart
 - View all cart items
-- Calculate total price for each item
-- Calculate the total bill
-- Simple menu-based interface
+- Remove items from the cart
+- Calculate item-wise prices
+- Generate a final bill
+- Display the total number of items
+- Handle empty carts and invalid menu choices
 
 ## 🛠️ Technologies Used
 
 - Python 3
-- Lists
-- Dictionaries
-- 'while' loop
-- 'for' loop
-- Conditional statements
+- Lists and Dictionaries
+- While Loops and For Loops
+- Conditional Statements
+- User Input and Basic Calculations
 
 ## ▶️ How to Run
 
-'''bash
+1. Install Python on your computer.
+2. Download or clone this repository.
+3. Open the project folder in Command Prompt.
+4. Run the following command:
+
+```bash
 python shopping_cart.py
-'''markdown
+```
 
-## 📌 Example 
-'''text
-1. Add item
-2. View cart
-3. Exit
 
-Enter your choice: 1
-Enter item: Soap
-Enter number of items: 2
-Enter price of one item: 30
-2 Soap added to cart!
 
-Enter your choice: 2
+```text
+===== SHOPPING CART =====
+1. Add Item
+2. View Cart
+3. Remove Item
+4. Generate Bill
+5. Exit
 
-Your Cart:
-- Soap x 2 = ₹ 60.0
-----------------------
-Total Bill: ₹ 60.0
+Final Bill: Rs. 100.0
+```
 
+## 🎯 Learning Outcomes
+
+This project helped me practise Python lists, dictionaries, loops, conditional statements, and basic billing calculations.
 
 ## 👩‍💻 Author
 
-**Riddhi Deshmukh**
-Python Beginner | Learning by Building Projects 🚀
-
-
-
-
+Riddhi Deshmukh
