@@ -1,55 +1,44 @@
 # 🛒 Shopping Cart System
 
 ## 📌 About the Project
+The Shopping Cart System is a beginner-friendly Python project that allows users to add items, manage their cart, search for products, remove items, and generate a final bill.
 
-The Shopping Cart System is a simple Python beginner project that allows users to add items to a cart, view cart details, remove items, and generate a final bill.
+It uses Python lists, dictionaries, loops, and conditional statements to manage shopping cart operations.
 
 ## ✨ Features
-
-- Add items to the shopping cart
-- View all cart items
-- Remove items from the cart
-- Calculate item-wise prices
-- Generate a final bill
-- Display the total number of items
-- Handle empty carts and invalid menu choices
+- Add items with name, quantity, and price.
+- View all items in the cart.
+- Search for an item by name.
+- Remove items from the cart.
+- Calculate individual item totals.
+- Generate a final bill.
+- Display the total number of items.
+- Case-insensitive item searching.
+- Simple menu-driven interface.
 
 ## 🛠️ Technologies Used
-
 - Python 3
-- Lists and Dictionaries
-- While Loops and For Loops
-- Conditional Statements
-- User Input and Basic Calculations
 
-## ▶️ How to Run
+## ▶️ How It Works
+1. Run the Python program.
+2. Select an option from the menu.
+3. Add items with their quantity and price.
+4. View, search, or remove items.
+5. Generate the final bill.
+6. Exit the program.
 
-1. Install Python on your computer.
-2. Download or clone this repository.
-3. Open the project folder in Command Prompt.
-4. Run the following command:
+## 📚 Concepts Used
+- Lists
+- Dictionaries
+- While loops
+- For loops
+- If-elif-else statements
+- User input
+- String methods
+- Basic arithmetic operations
 
-```bash
-python shopping_cart.py
-```
+## 🎯 Learning Outcome
+This project helped me improve my understanding of Python data structures, loops, conditional statements, and building interactive menu-driven applications.
 
-
-
-```text
-===== SHOPPING CART =====
-1. Add Item
-2. View Cart
-3. Remove Item
-4. Generate Bill
-5. Exit
-
-Final Bill: Rs. 100.0
-```
-
-## 🎯 Learning Outcomes
-
-This project helped me practise Python lists, dictionaries, loops, conditional statements, and basic billing calculations.
-
-## 👩‍💻 Author
-
-Riddhi Deshmukh
+---
+**Author:** Riddhi Deshmukh
