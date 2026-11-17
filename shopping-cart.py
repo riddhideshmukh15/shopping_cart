@@ -7,7 +7,8 @@ while True:
     print("2. View Cart")
     print("3. Remove Item")
     print("4. Generate Bill")
-    print("5. Exit")
+    print("5. Search Item")
+    print("6. Exit")
 
     choice = input("Enter your choice: ")
 
@@ -77,8 +78,27 @@ while True:
 
             print("Total Items:", len(cart))
             print("Final Bill: Rs.", round(total_bill, 2))
-
     elif choice == "5":
+        if len(cart) == 0:
+            print("Cart is empty!")
+        else:
+            search_name = input("Enter item name to search: ")
+            found = False
+
+            for item in cart:
+                if item["name"].lower() == search_name.lower():
+                    print("\nItem Found!")
+                    print("Item Name:", item["name"])
+                    print("Quantity:", item["quantity"])
+                    print("Price:", item["price"])
+                    print("Total Price:", item["quantity"] * item["price"])
+                    found = True
+                    break
+
+            if not found:
+                print("Item not found in cart!")
+
+    elif choice == "6":
         print("Thank you for shopping!")
         break
 
